@@ -1,0 +1,226 @@
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	background-color: #333;
+	color: #fff;
+	padding: 20px;
+    text-align: center;
+}
+.logo{
+    margin-top: 20px;
+    margin-right: 570px;
+   margin-bottom: -130px;
+    width: 120px;
+    height: 120px;
+  
+}
+h1 {
+	margin: 0;
+}
+
+nav {
+	margin-top: 10px;
+}
+
+nav ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+nav li {
+	display: inline-block;
+	margin-right: 20px;
+}
+
+nav a {
+	color: #fff;
+	text-decoration: none;
+}
+
+main {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+.intro {
+	margin-bottom: 50px;
+}
+
+.cta {
+	display: inline-block;
+	background-color: #ff9900;
+	color: #fff;
+	padding: 10px 20px;
+	border-radius: 5px;
+	text-decoration: none;
+	margin-top: 20px;
+}
+
+.cta:hover {
+	background-color: #ff6600;
+}
+
+.services {
+	margin-bottom: 50px;
+  margin-top: 20px;
+}
+
+.services h3 {
+	margin-top: 10px;
+}
+
+.about {
+  margin-top: 20px;
+	margin-bottom: 50px;
+}
+
+.contact {
+	margin-bottom: 50px;
+}
+
+label {
+	display: block;
+	margin-bottom: 10px;
+}
+
+input[type="text"], input[type="email"], textarea {
+	width: 100%;
+	padding: 10px;
+	margin-bottom: 20px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	font-size: 16px;
+}
+
+button[type="submit"] {
+	display: block;
+	background-color: #ff9900;
+	color: #fff;
+	padding: 10px 20px;
+	border-radius: 5px
+}
+.p{
+
+    text-align: center;
+    font-size: 20px;
+}
+.team-members {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .member {
+    width: 30%;
+    margin-bottom: 30px;
+    text-align: center;
+    
+  }
+  
+  .anh1 {
+    width: 90%;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+  .anh2{
+    width: 100%;
+    height: 75%;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+  .anh3{
+    width: 100%;
+    height: 75%;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+  .member h3 {
+    font-size: 24px;
+    margin-bottom: 5px;
+  }
+  
+  .member p {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  /* Modal styles */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgba(0,0,0,0.4); /* Black background with opacity */
+  }
+  
+  .modal-content {
+    background-color: #fefefe;
+    margin: 10% auto; /* 10% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+  }
+  
+  /* Close button */
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  .congty{
+    text-align: center;
+  }
+  .anhcongty{
+    width: 1150px;
+    margin-top: 20px;
+  }
+  .vanban{
+    margin-top: 10px;
+  }
+  .form-floating{
+   width: 1150px;
+    margin: 0px auto 0px auto;
+  }
+  .khungchuanh{
+    display: flex;
+  
+  }
+  .img-thumbnail{
+    width: 400px;
+  }
+  .table{
+    width: 1350px;
+  }
+  .carousel-item img {
+    max-width: 700px;
+    height: auto;
+  }
+  #carouselExampleCaptions {
+    max-width: 700px;
+    margin: 0 auto;
+  }
+  .bazooka{
+    color: black;
+    font-size: 20px;
+  }
+  .khunganh{
+    display: flex;
+  }
+
+  
